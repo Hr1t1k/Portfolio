@@ -1,0 +1,58 @@
+
+@media (max-width:992px){
+    #intro{
+        text-align: center;
+    }
+    
+    #intro img{
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+*{
+  justify-content:start;
+}
+.container>h1{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-family: 'Crimson Text', serif;
+  font-family: 'Libre Baskerville', serif;
+}
+#intro{
+  background-color:slategrey;
+  color:black;
+}
+#post{
+    font-size: 5rem;
+    letter-spacing: 1cap;
+    line-height: 150%;
+}
+li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+ .carousel-item img {
+  
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.skill-set{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.nav-link{
+  color: white;
+}
