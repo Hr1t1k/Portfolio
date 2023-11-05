@@ -1,6 +1,5 @@
 
 h1#post{ 
-  letter-spacing: 1cap;
   line-height: 150%;
 }
 @media (min-width:769px){
