@@ -1,229 +1,203 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <!-- header -->
-    <section id="header">
-
-      <nav class="navbar  navbar-expand-lg bg-body-tertiary  px-lg-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hritik Kaushik</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav  mb-2 mb-lg-0">
-              <li class="nav-item"><a href="#intro" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#workEx" class="nav-link">Work Experience</a></li>
-            <li class="nav-item"><a href="#Projects" class="nav-link">My Projects</a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#Certificates" class="nav-link">Certificates</a></li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    </section>
-
-    <!-- Introduction -->
-    <section id="intro">
-        <div class="container col-xxl-9 px-4 py-5">
-            <div class="row flex-md-row-reverse justify-content-lg-around justify-content-center align-items-center g-5 py-5">
-                <div class="col-9 col-lg-4">
-                    <img src="./images/Snapchat-1240065650.jpg" class="d-block justify-content-center mx-auto img-fluid" alt="Hritik's Image" width="220"   loading=  "lazy">
-                </div>
-                <div class="col-lg-6 col-md-9">
-                    <h1 class="display-5 fw-bolder  lh-1 mb-3" style="color: black;">Hritik Kaushik</h1>
-                    <p >Software Engineer, Full Stack Dev. 
-                        I'm a recent software engineer graduate with a strong foundation in the fundamentals of programming and development.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Work Experience -->
-    <section id="workEx">
-        <div class="container justify-content-left align-items-center col-xxl-9 px-4 py-5">
-            <h1 id="post" class=" fw-bolder text-body-emphasis lh-1  ">Work Experience</h1>
-        </div>
-        <div class="container col-xxl-9 px-4 border-bottom ">
-            <div class="row flex-lg-row justify-content-left align-items-center g-5 pt-3 pb-5">
-              <div class="col-10 col-sm-8 col-lg-5">
-                <img src="./images/cognizant logo.png" class="d-block img-fluid " alt="cognizant"  loading="lazy">
-              </div>
-              <div class="col-lg-6" >
-                <h1 class="display-5 fw-light  lh-3 mb-lg-3  ">Programmer Analyst Trainee</h1>
-                <p>Developed Web API for Student management system which allows CRUD operations.</p>
-                <p>Developed Library Mangement System using PL/SQL</p>                
-              </div>
-            </div>
-          </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="Projects">
-        <div class="container col-xxl-9 px-4  py-5">
-            <h1 id="post" class=" fw-bolder text-body-emphasis lh-1 mb-3">My Projects</h1>
-        </div>
-        <div class="container col-xxl-9 px-4 pb-5 border-bottom ">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <a href="https://github.com/Hr1t1k/LearnToday"><div class="card h-100">
-                    <img src="./images/LearnToday.png" class="card-img-top" alt="Learn Today">
-                    <div class="card-body">
-                      <h5 class="card-title">Learn Today</h5>
-                      <p class="card-text">A Web API application which allows a user to manage Students or display Student details using CRUD
-                        operations. <br>Created the API using <span style="font-weight: bold;">C #</span> and <span style="font-weight: bold;">ADO.NET</span> is used to interact with the database.<br> MS SQL Server is used as Database.</p>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-                <div class="col ">
-                  <a href="https://github.com/Hr1t1k/Portfolio">
-                    <div class="card h-100">
-                      <img src="./images/portfolio.png" class="card-img-top"  alt="Portfolio">
-                      <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">Created this portfolio for myself (the webpage you're currently at). <br> Tech Stack: Html , CSS and Bootstrap</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="https://tasks-401411.firebaseapp.com/">
-                    <div class="card h-100">
-                      <img src="./images/Tasks.png" class="card-img-top" alt="Task web app ">
-                      <div class="card-body">
-                        <h5 class="card-title">Tasks</h5>
-                        <p class="card-text">A simple to use To Do Web App to keep track of your tasks, add your pending tasks and remove your completed task. Organise your tasks in different list to maange them effectively.<br>Tech Stack: React, Bootstrap, MongoDB , Firebase</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-        </div>
-    </section>
-
-    <!-- skills -->
-    <section id="skills">
-      <div class="container col-xxl-9 px-4  py-5">
-      <h1 id="post" class=" fw-bolder text-body-emphasis lh-1 mb-3 ">Skills</h1>
+  <nav id="desktop-nav">
+    <div class="logo">Hritik Kaushik</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Hritik Kaushik</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <div class="skill-set container col-xxl-9  border-bottom pb-5">
-        <img src="./images/pngwing.com.png" alt="html"  >
-        <img src="./images/pngwing.com (1).png" alt="css" >
-        <img src="./images/pngwing.com (2).png" alt="bootstrap"  >
-        <img src="./images/pngwing.com (4).png" alt="javascript"  >
-        <img src="./images/pngwing.com (5).png" alt="C++"  >
-        <img src="./images/pngwing.com (6).png" alt="C sharp"  >
-        <img src="./images/pngwing.com (7).png" alt="My SQL"  >
-        <img src="./images/react.png" alt="React"  >
-        <img src="./images/mongodb.png" alt="MongoDB"  >
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
-    </section>
-    <!-- Certificates -->
-    <section id="Certificates">
-        <div class="container col-xxl-9 px-4  py-5">
-          <h1 id="post" class=" fw-bolder text-body-emphasis lh-1 mb-3 ">Certificates</h1>
-        </div>
-        <div class="container col-xxl-9 px-4  pb-5" >
-          <!-- Carousel wrapper -->
-            <div id="carouselMDExample" class="carousel slide " data-bs-ride="carousel">
-              <!-- Slides -->
-              <div class="carousel-inner mb-5 shadow-1-strong rounded-3">
-                <div class="carousel-item">
-                  <a href="https://www.hackerrank.com/certificates/015116a538b7"><img src="./images/Cs cert.png" class="d-block w-100" alt="C Sharp Certificate" /></a>
-                </div>
-                <div class="carousel-item active">
-                  <a href="https://www.hackerrank.com/certificates/485a7258d415"><img src="./images/problem solving cert.png" class="d-block w-100" alt="Problem solving Certificate" /></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="https://www.hackerrank.com/certificates/e3e9781c117b"><img src="./images/Sql cert.png" class="d-block w-100" alt="sql certificate" /></a>
-                </div>
-              </div>
-              <!-- Slides -->
-
-              <!-- Controls -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMDExample"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselMDExample"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-              <!-- Controls -->
-
-              <!-- Thumbnails -->
-              <div class="carousel-indicators" style="margin-bottom: -20px;">
-                <button type="button" data-bs-target="#carouselMDExample" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1" style="width: 100px;">
-                  <img class="d-block w-100 shadow-1-strong rounded"
-                    src="./images/Cs cert.png" alt="C sharp certificate"   class="img-fluid" />
-                </button>
-                <button type="button" data-bs-target="#carouselMDExample" data-bs-slide-to="1" aria-label="Slide 2"
-                  style="width: 100px;">
-                  <img class="d-block w-100 shadow-1-strong rounded"
-                    src="./images/problem solving cert.png" alt="Problem Solving certificate"  class="img-fluid" />
-                </button>
-                <button type="button" data-bs-target="#carouselMDExample" data-bs-slide-to="2" aria-label="Slide 3"
-                  style="width: 100px;">
-                  <img class="d-block w-100 shadow-1-strong rounded"
-                    src="./images/Sql cert.png" alt="SQL certificate" class="img-fluid" />
-                </button>
-              </div>
-              <!-- Thumbnails -->
-            </div>    
-        </div>
-    </section>
-
-    <section id="scrollToTop">
-      <div class="fixed">
-        <ul class="nav nav-pills" >
-          <li class="nav-item"><a href="#header" class="nav-link " aria-current="page"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-          </svg></a></li>
-        </ul>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+       <img src="./assets/HomeImage.png" alt="Hritik Kaushik profile picture" />
+     </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Hritik Kaushik</h1>
+      <p class="section__text__p2">Fullstack Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Hritikkaushik.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
       </div>
-  </section>
-
-  <!-- footer -->
-  <section id="footer">
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 mb-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class=" mb-md-0 text-body-secondary">© 2023 </span>
-        </div>
-    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-          <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/hritikkaushik/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-          </svg></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="https://github.com/Hr1t1k"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-          </svg></a></li>
-          <li class="ms-3"><a class="text-body-secondary me-10" href="https://leetcode.com/Hritik__k/"><img src="./images/leetcode-svgrepo-com.svg" alt="leetcode logo" width="24" height="24"></a></li>
-        </ul>
-      </footer>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/hritikkaushik'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/Hr1t1k'" />
+      </div>
     </div>
   </section>
-
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>6 months<br />Programmer Analyst</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech Computer Science & Engineering</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi, I'm a Full stack developer specializing in the MERN stack, passionate about crafting sleek and efficient web
+            solutions. From building intuitive user interfaces with React to architecting robust back-end systems with Node.js and
+            Express, I thrive on bringing ideas to life. Let's work together to create exceptional digital experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title" style="padding-bottom: 65px;">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="article-container">
+          <img src="./assets/pngwing.com (2).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (1).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (4).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (3).png" alt="profile-pic" height="80" />
+        
+          <img src="./assets/pngwing.com (8).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (6).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (5).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (7).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (9).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (10).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (11).png" alt="profile-pic" height="80" />
+          <img src="./assets/pngwing.com (12).png" alt="profile-pic" height="80" />
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  
+  
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Tasks.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Tasks web app</h2>
+          <div class="btn-container">
+            <a class="btn btn-color-2 project-btn" href='https://github.com/Hr1t1k/Tasks'>
+              Github
+            </a>
+            <a class="btn btn-color-2 project-btn" href='https://tasks-401411.firebaseapp.com/'>
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/willbethere.png" alt="Project 2" class="project-img" height="206px" />
+          </div>
+          <h2 class="experience-sub-title project-title">Will be there</h2>
+          <div class="btn-container">
+            <a class="btn btn-color-2 project-btn" href="https://github.com/Hr1t1k/adch-group-5">
+              Github
+            </a>
+            <a class="btn btn-color-2 project-btn" href="https://adch-group-5.vercel.app/">
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/drive.png" alt="Project 3" class="project-img" height="206px" />
+          </div>
+          <h2 class="experience-sub-title project-title">Dr1vee</h2>
+          <div class="btn-container">
+            <a class="btn btn-color-2 project-btn" href="https://github.com/Hr1t1k/Drive-Clone">
+              Github
+            </a>
+            <a class="btn btn-color-2 project-btn" href="https://dr1vee.web.app/">
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:hritikkaushik@gmail.com">hritikkaushik@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/hritikkaushik">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Hritik Kaushik. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
-
-
